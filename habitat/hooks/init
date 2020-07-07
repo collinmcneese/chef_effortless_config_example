@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Init hook to allow usage of a self-signed certificate with Chef Automate.
+# quick-hack, no error correction for if condition.
+
+# if [ ! -d {{pkg.svc_config_path}}/trusted_certs ] ;
+# then
+#   knife ssl fetch {{cfg.automate.server_url}} -c {{pkg.svc_config_path}}/client-config.rb
+# fi
