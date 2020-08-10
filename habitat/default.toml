@@ -2,6 +2,7 @@
 # See the docs at https://www.habitat.sh/docs/create-packages-configure/.
 # You can safely delete this file if you don't need it.
 
+# Chef Client Configuration Options
 interval = 30
 splay = 10
 splay_first_run = 0

@@ -10,7 +10,9 @@ name 'effortless_config_example'
 default_source :supermarket
 
 # run_list: chef-client will run these recipes in the order specified.
-run_list 'cb_effortless::default'
+run_list [
+  'cb_effortless::default',
+]
 
 # Specify a custom source for a single cookbook:
 cookbook 'cb_effortless', path: '../cookbooks/cb_effortless'
