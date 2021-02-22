@@ -1,9 +1,12 @@
 ---
 driver:
   name: vagrant
+  synced_folders:
+    - [".", "/vagrant"]
 
 provisioner:
   name: chef_zero
+  product_name: chef-workstation
 
 platforms:
   - name: ubuntu-20.04
