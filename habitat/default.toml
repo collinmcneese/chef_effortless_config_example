@@ -3,7 +3,7 @@
 # You can safely delete this file if you don't need it.
 
 # Chef Client Configuration Options
-interval = 600
+interval = 60
 splay = 10
 splay_first_run = 0
 run_lock_timeout = 30
@@ -16,6 +16,6 @@ ssl_verify_mode = ':verify_none'
 acceptance = "accept"
 
 [automate]
-enable = true
+enable = false
 token = 'set_as_token'
 server_url = 'http://set_as_automate_server.com'
