@@ -1,0 +1,5 @@
+resources:
+- type: directory
+  name: '/var/chef'
+- type: file
+  name: '/var/chef/stub'
