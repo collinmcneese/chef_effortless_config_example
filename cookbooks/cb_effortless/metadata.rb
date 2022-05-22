@@ -1,6 +1,6 @@
 name 'cb_effortless'
 maintainer 'Collin McNeese'
-maintainer_email 'cmcneese@chef.io'
+maintainer_email 'collin@mydevsandbox.com'
 license 'All Rights Reserved'
 description 'Installs/Configures cb_effortless'
 version '0.1.0'
